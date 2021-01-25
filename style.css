@@ -1,0 +1,201 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@700&family=Monoton&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+.navbar{
+  position: fixed;
+  background-color: transparent;
+  width: 100%;
+  padding: 10px 0;
+  top: 0;
+  z-index: 100;
+  line-height: 40px;
+}
+.inner-width{
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.logo i{
+  font-size: 30px;
+  padding-top: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+.navbar-menu a{
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto',sans-serif;
+  letter-spacing: 2px;
+  margin-left: 35px;
+  display: inline-block;
+}
+.navbar-menu a:hover{
+  color: #ce36d3;
+  font-weight: 700;
+}
+#home{
+  height: 100vh;
+  background-image: url(img.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.content{
+  padding-top: 180px;
+  padding-left: 80px;
+  width: 380px;
+}
+.content h1{
+  font-size: 40px;
+  font-weight: 700;
+  font-family: 'Raleway',sans-serif;
+  color: #fff;
+  letter-spacing: 4px;
+  line-height: 60px;
+}
+.content button{
+  padding: 14px 18px;
+  margin-top: 20px;
+  background: linear-gradient(45deg,rgba(59,173,227,1) 0%, rgba(87,111,230,1) 25%, rgba(152,68,183,1) 51%, rgba(255,53,127,1) 100%);
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-family: 'Raleway',sans-serif;
+  cursor: pointer;
+  text-transform: uppercase;
+
+}
+.side-text h1{
+  color: #fff;
+  font-size: 35px;
+  font-weight: 100;
+  font-family: 'Big Shoulders Stencil Display',cursive;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+.horizontal{
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
+}
+.horizontal span{
+  color: #2949eb;
+}
+.vertical{
+  writing-mode: vertical-rl;
+  transform: rotate(-180deg);
+  position: absolute;
+  left: 30px;
+  bottom: 120px;
+}
+.vertical span{
+  color: #ce36d3;
+}
+
+.social-container{
+  position: absolute;
+  right: 40px;
+  bottom: 34%;
+}
+.social-icons{
+  list-style: none;
+}
+.social-icons li{
+  margin: 35px 0;
+}
+.social-icons li i{
+  color: #fff;
+  font-size: 20px;
+}
+.social-icons li a:hover i{
+  transform: scale(1.5);
+  color: #ce36d3;
+  transition: all .2s ease-in-out;
+}
+.social-icons::before{
+  content: '';
+  position: absolute;
+  display: block;
+  width: 1px;
+  height: 210px;
+  top: -223px;
+  left: 8px;
+  background-color: #ce36d3;
+}
+.social-icons::after{
+  content: '';
+  position: absolute;
+  display: block;
+  width: 1px;
+  height: 210px;
+  bottom: -223px;
+  left: 8px;
+  background-color: #2949eb;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
